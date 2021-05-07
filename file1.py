@@ -1,0 +1,7 @@
+file=open("vji.txt","w")
+file.write("my,name,is,kaminee,shakya")
+file.close()
+file=open("vji.txt")
+a= file.read()
+print(a)
+file.close()
