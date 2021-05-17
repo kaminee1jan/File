@@ -1,0 +1,5 @@
+my_file=open("people1-exercis.txt","r")
+a=my_file.read()
+splitted=a.split("\n")
+print(len(splitted))
+my_file.close()
